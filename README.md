@@ -9,4 +9,4 @@ Users wanted to know the usage rate of their new launching mobile app. They had 
 - json
 
 ## File description
-The file 'python-scripts' contains the script that brings the data in the right shape to be displayed on googlesheet
+The file 'python-script' contains the script that brings the data in the right shape to be displayed on googlesheet
