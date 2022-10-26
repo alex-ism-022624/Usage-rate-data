@@ -5,7 +5,7 @@ import gspread
 import requests
 import json
 
-# Collect data from metabse by calling API
+# Collect data from metabase by calling API
 
 metabase_header1 = {'X-Metabase-Session': 'caf8be61-25ff-4e08-9d54-9831fbdb473e', 'Content-Type': 'application/x-www-form-urlencoded'}
 url1 = 'https://metabase.aloninja.com/api/card/163/query/json'
@@ -26,7 +26,8 @@ usage3 = pd.DataFrame.from_dict(_r3.json())
  
 # Transforming data
 
-## Read data from a googlesheet. Turning data into a dataframe by using pandas library, also execute some transformation practice such as rename columns, merge tables, drop columns, replace values, and summarize data.
+## Collect data from a googlesheet
+## Turning data into a dataframe by using pandas library, also execute some transformation practice such as rename columns, merge tables, drop columns, replace values, and summarize data.
 
 whitelisted_rider = gc.open_by_key ('1SW0VPEhJ_FVw-ryiTx1pSYT7-VfV4xjI5-zsc7hjbMI')
 
